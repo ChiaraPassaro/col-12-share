@@ -1,0 +1,33 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-wrapper {
+  background-color: aqua;
+  padding: 0 10%;
+}
+
+/* .header-list {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.header-list-item {
+  list-style-type: none;
+}
+
+.header-list-item a {
+  text-decoration: none;
+
+}
+
+/* .fa-bars {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .fa-bars {
+    display: block;
+  }
+  
+} */
