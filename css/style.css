@@ -31,3 +31,51 @@ body {
   }
   
 } */
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0.5rem 0.8rem;
+}
+.search:focus-within {
+  outline: 2px solid rgb(5, 81, 94);
+}
+
+.search-input {
+  flex-grow: 1;
+  margin: 0 0.5rem;
+  border: none;
+}
+
+.search-input:focus {
+  outline: none;
+}
+/* #80D0C7  #4E97A3*/
+.search-button {
+  background-image: linear-gradient(#80D0C7,#4E97A3 );
+  padding: 0.8rem 1.8rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.col-8 h1 {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+}
+/* #13547A */
+.col-8 h2 {
+  text-align: center;
+  color:  #13547A;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
